@@ -1,7 +1,7 @@
 WebAssembly For Web Developers
 ==============================
 
-Code for the [itenium blog post](TODO URL HERE) on the [Google I/O '19 talk](https://www.youtube.com/watch?v=njt-Qzw0mVY)
+Code for the [itenium blog post](https://itenium.be/blog/javascript/webassembly/) on the [Google I/O '19 talk](https://www.youtube.com/watch?v=njt-Qzw0mVY)
 by Surma Surma and Deepti Gandluri.
 
 HelloWorld example for running C in the browser using WebAssembly and Emscripten.
