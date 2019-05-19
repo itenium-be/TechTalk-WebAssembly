@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hello World</title>
+  </head>
+  <body>
+    <textarea id="output" rows="8"></textarea>
+
+    <script type='text/javascript'>
+      // Link up with HelloWorld.js
+      var Module = {
+        print: (function() {
+          var element = document.getElementById('output');
+          return function(text) {
+            console.log(text);
+            if (element) {
+              element.value += text + "\n";
+              element.scrollTop = element.scrollHeight; // focus on bottom
+            }
+          };
+        })(),
+      };
+    </script>
+    <script async type="text/javascript" src="HelloWorld.js"></script>
+  </body>
+</html>
